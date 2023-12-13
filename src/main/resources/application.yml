@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/h2/bin/myproject
+    driver-class-name: org.h2.Driver
+    username: sa
